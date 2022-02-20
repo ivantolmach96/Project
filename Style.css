@@ -387,7 +387,7 @@ img{
 
 /*top start*/
 .top{
-	margin-bottom: 86px;
+	margin-bottom: 144px;
 }
 .top__title{
 	margin-bottom: 54px;
@@ -396,6 +396,10 @@ img{
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 57px;
+}
+.top__card{
+	display: flex;
+	flex-direction: column;
 }
 .top__card-pic{
 	position: relative;
@@ -452,5 +456,10 @@ img{
 	background: #006DFE;
 	padding: 12px 19px;
 	text-decoration: none;
+	width: 118px;
+	margin: auto 0 0 0;
+}
+.top__card-more:hover, .top__card-more:focus{
+	background: #1869d5;
 }
 /*top end*/
